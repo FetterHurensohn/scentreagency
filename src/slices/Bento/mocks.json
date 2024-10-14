@@ -1,0 +1,184 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "body": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Lerne zu Verkaufen, ohne selber verkaufen zu müssen",
+              "spans": []
+            },
+            "direction": "ltr"
+          }
+        ]
+      },
+      "box_1": {
+        "__TYPE__": "GroupContentType",
+        "value": [
+          {
+            "__TYPE__": "GroupItemContent",
+            "value": [
+              [
+                "title",
+                {
+                  "__TYPE__": "StructuredTextContent",
+                  "value": [
+                    {
+                      "type": "heading3",
+                      "content": {
+                        "text": "Familiar"
+                      }
+                    }
+                  ]
+                }
+              ],
+              [
+                "body",
+                {
+                  "__TYPE__": "StructuredTextContent",
+                  "value": [
+                    {
+                      "type": "paragraph",
+                      "content": {
+                        "text": "Est cupidatat exercitation ut eiusmod exercitation. Velit aute eiusmod commodo proident excepteur Lorem in deserunt velit adipisicing laboris elit id. Reprehenderit culpa consectetur mollit do anim dolor nostrud."
+                      }
+                    }
+                  ]
+                }
+              ],
+              [
+                "image",
+                {
+                  "provider": "imgix",
+                  "url": "https://images.unsplash.com/photo-1603824231744-517ef271df7e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwzfHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3Mjg2NTM0NDd8MA&ixlib=rb-4.0.3&q=85",
+                  "alt": "sliced lemon fruit on blue surface",
+                  "origin": {
+                    "id": "SDX4_TQcxGU",
+                    "url": "https://images.unsplash.com/photo-1603824231744-517ef271df7e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwzfHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3Mjg2NTM0NDd8MA&ixlib=rb-4.0.3&q=85",
+                    "width": 3690,
+                    "height": 2470
+                  },
+                  "width": 3690,
+                  "height": 2470,
+                  "edit": {
+                    "background": "transparent",
+                    "zoom": 1,
+                    "crop": {
+                      "x": 0,
+                      "y": 0
+                    }
+                  },
+                  "credits": null,
+                  "__TYPE__": "ImageContent",
+                  "thumbnails": {}
+                }
+              ],
+              [
+                "wide",
+                {
+                  "__TYPE__": "BooleanContent",
+                  "value": false
+                }
+              ]
+            ]
+          },
+          {
+            "__TYPE__": "GroupItemContent",
+            "value": [
+              [
+                "title",
+                {
+                  "__TYPE__": "StructuredTextContent",
+                  "value": [
+                    {
+                      "type": "heading3",
+                      "content": {
+                        "text": "Liron",
+                        "spans": []
+                      },
+                      "direction": "ltr"
+                    }
+                  ]
+                }
+              ],
+              [
+                "image",
+                {
+                  "provider": "imgix",
+                  "url": "https://images.unsplash.com/photo-1592951271867-b4e76e837658?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw5fHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3Mjg2NTM0NDd8MA&ixlib=rb-4.0.3&q=85",
+                  "alt": "yellow lemon fruit on white surface",
+                  "origin": {
+                    "id": "pocwmEqrW0g",
+                    "url": "https://images.unsplash.com/photo-1592951271867-b4e76e837658?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw5fHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3Mjg2NTM0NDd8MA&ixlib=rb-4.0.3&q=85",
+                    "width": 3024,
+                    "height": 3024
+                  },
+                  "width": 3024,
+                  "height": 3024,
+                  "edit": {
+                    "background": "transparent",
+                    "zoom": 1,
+                    "crop": {
+                      "x": 0,
+                      "y": 0
+                    }
+                  },
+                  "credits": null,
+                  "__TYPE__": "ImageContent",
+                  "thumbnails": {}
+                }
+              ],
+              [
+                "body",
+                {
+                  "__TYPE__": "StructuredTextContent",
+                  "value": [
+                    {
+                      "type": "paragraph",
+                      "content": {
+                        "text": "Est cupidatat exercitation ut eiusmod exercitation. Velit aute eiusmod commodo proident excepteur Lorem in deserunt velit adipisicing laboris elit id. Reprehenderit culpa consectetur mollit do anim dolor nostrud.",
+                        "spans": []
+                      },
+                      "direction": "ltr"
+                    }
+                  ]
+                }
+              ],
+              [
+                "wide",
+                {
+                  "__TYPE__": "BooleanContent",
+                  "value": true
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      "heading": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "heading2",
+            "content": {
+              "text": "Marketing der Neuen Welt",
+              "spans": [
+                {
+                  "type": "em",
+                  "start": 14,
+                  "end": 24
+                }
+              ]
+            },
+            "direction": "ltr"
+          }
+        ]
+      }
+    },
+    "items": []
+  }
+]
