@@ -22,10 +22,12 @@
         }
       },
       "title": {
-        "type": "Text",
+        "type": "StructuredText",
         "config": {
-          "label": "Title",
-          "placeholder": ""
+          "label": "title",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "heading1"
         }
       },
       "slices": {

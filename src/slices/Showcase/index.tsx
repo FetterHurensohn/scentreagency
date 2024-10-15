@@ -22,7 +22,7 @@ export type ShowcaseProps = SliceComponentProps<Content.ShowcaseSlice>;
  */
 const Showcase = ({ slice }: ShowcaseProps): JSX.Element => {
   console.log(slice.primary);
-  const iconKey = slice.primary.icon?.toLowerCase();
+    const iconKey = slice.primary.icon?.toLowerCase() || ""; // Fallback auf leeren String
   return (
     <Bounded
       data-slice-type={slice.slice_type}

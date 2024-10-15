@@ -131,15 +131,15 @@ interface PageDocumentData {
   uid2: prismic.GroupField<Simplify<PageDocumentDataUid2Item>>;
 
   /**
-   * Title field in *Page*
+   * title field in *Page*
    *
-   * - **Field Type**: Text
+   * - **Field Type**: Rich Text
    * - **Placeholder**: *None*
    * - **API ID Path**: page.title
    * - **Tab**: Main
-   * - **Documentation**: https://prismic.io/docs/field#key-text
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
    */
-  title: prismic.KeyTextField;
+  title: prismic.RichTextField;
 
   /**
    * Slice Zone field in *Page*
