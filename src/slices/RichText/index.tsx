@@ -1,13 +1,24 @@
 import Bounded from '@/components/Bounded';
 import { Content } from '@prismicio/client';
 import { PrismicRichText, SliceComponentProps } from '@prismicio/react';
-import { components } from '..';
+
+import { JSXMapSerializer } from '@prismicio/react';
+
+
 
 /**
  * Props for `RichText`.
  */
 export type RichTextProps = SliceComponentProps<Content.RichTextSlice>;
 
+
+// Prüfe, ob deine Komponente korrekt erstellt ist
+const components: JSXMapSerializer = {
+  // Hier fügst du alle Block- oder Inline-Komponenten hinzu, die du rendern möchtest
+  heading2: ({ children }) => <h2>{children}</h2>,
+  paragraph: ({ children }) => <p>{children}</p>,
+  // etc...
+};
 /**
  * Component for "RichText" Slices.
  */
